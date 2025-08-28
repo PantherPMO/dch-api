@@ -264,7 +264,7 @@ export const processVoiceCommand = async (c: Context) => {
         response = {
           action: 'toast',
           title: 'History Question',
-          description: `I can answer general history questions, but I need to be trained on that specific topic. You asked about: ${entities.query || 'a historical topic'}.`,
+          description: `I can provide information on historical topics. You asked about: ${entities.query || 'a historical topic'}.`,
         };
         break;
       default:
