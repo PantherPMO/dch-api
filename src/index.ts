@@ -13,7 +13,7 @@ const app = new Hono()
 app.use('*', logger())
 // Cors Configuration
 app.use(cors({
-  origin: 'http://localhost:8080',
+  origin: ['http://localhost:8080', 'voicedch.vercel.app'],
   allowMethods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS', 'PATCH'],
   allowHeaders: ['Content-Type', 'Authorization', 'Accept', 'Origin', 'X-Requested-With'],
   exposeHeaders: ['Content-Type', 'Authorization'],
@@ -28,7 +28,7 @@ const port = process.env.PORT || 3000
 
 
 app.get('/', (c) => {
-  return c.text('Hello Hono!')
+  return c.text('Hello DCH!')
 })
 
 app.route('/api/artifacts', artifactRoutes)
