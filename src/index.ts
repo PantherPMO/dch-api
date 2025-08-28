@@ -13,7 +13,7 @@ const app = new Hono()
 app.use('*', logger())
 // Cors Configuration
 app.use(cors({
-  origin: ['http://localhost:8080', 'voicedch.vercel.app'],
+  origin: ['http://localhost:8080', 'https://voicedch.vercel.app'],
   allowMethods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS', 'PATCH'],
   allowHeaders: ['Content-Type', 'Authorization', 'Accept', 'Origin', 'X-Requested-With'],
   exposeHeaders: ['Content-Type', 'Authorization'],
