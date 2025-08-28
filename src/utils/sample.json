@@ -1,0 +1,481 @@
+[
+  {
+    "model": "Exhibition",
+    "documents": [
+      {
+        "_id": {
+          "$oid": "651d8b2d9d1c1a0123456789"
+        },
+        "slug": "tutankhamun-treasures-of-the-golden-pharaoh",
+        "title": "Tutankhamun: Treasures of the Golden Pharaoh",
+        "description": "This exhibition presents the largest collection of Tutankhamun's artifacts ever to tour outside of Egypt. It offers a rare glimpse into the life and death of the boy-king, featuring over 150 original objects, including his intricate jewelry, gilded statues, and ceremonial objects. The exhibition culminates with a deep look into the rituals and beliefs of ancient Egyptian religion and the afterlife.",
+        "shortDescription": "Explore the life and treasures of the ancient Egyptian boy-king, Tutankhamun, with over 150 original artifacts.",
+        "image": "https://cdn.creatureandcoagency.com/uploads/2020/01/king-tut-primary.png",
+        "category": "Ancient History",
+        "status": "Past",
+        "duration": "March 2019 - May 2020",
+        "artifacts": 3,
+        "startDate": {
+          "$date": "2019-03-23T00:00:00Z"
+        },
+
+        "featured": true
+      },
+      {
+        "_id": {
+          "$oid": "651d8b2d9d1c1a0123456790"
+        },
+        "slug": "china-and-the-sea-in-the-dynasties",
+        "title": "China and the Sea: Maritime Routes of the Dynasties",
+        "description": "This exhibition explores the vital role of the sea in China's history, from the early maritime trade of the Han Dynasty to the epic voyages of Admiral Zheng He during the Ming Dynasty. It features artifacts recovered from ancient shipwrecks, including porcelain, silk, and navigation tools, highlighting China's long and rich connection to the ocean and its influence on global trade.",
+        "shortDescription": "Discover China's long maritime history through artifacts from ancient shipwrecks and epic voyages.",
+        "image": "https://www.researchgate.net/publication/304103800/figure/fig4/AS:691222318419969@1541811651236/The-maritime-silk-road-map-of-Ming-and-Qing-Dynasties-in-China.png",
+        "category": "Maritime History",
+        "status": "Current",
+        "duration": "January 2025 - December 2025",
+        "artifacts": 2,
+        "startDate": {
+          "$date": "2025-01-15T00:00:00Z"
+        },
+
+        "featured": false
+      },
+      {
+        "_id": {
+          "$oid": "651d8b2d9d1c1a0123456796"
+        },
+        "slug": "the-roman-empire-power-and-glory",
+        "title": "The Roman Empire: Power and Glory",
+        "description": "An exploration of the vast Roman Empire through its art, engineering, and military might. This exhibition showcases marble sculptures of emperors, intricate mosaics from Pompeii, and a full-scale replica of a Roman siege engine. Visitors will learn about the daily life of Romans, the rise and fall of the Republic, and the enduring legacy of this powerful civilization.",
+        "shortDescription": "Discover the art, engineering, and military of the Roman Empire.",
+        "image": "https://www.romecabs.com/upload/CONF99/20230604/Rise_and_Fall_of_the_Roman_Empire_glory.jpg",
+        "category": "Classical Antiquity",
+        "status": "Current",
+        "duration": "March 2025 - December 2025",
+        "artifacts": 3,
+        "startDate": {
+          "$date": "2025-03-01T00:00:00Z"
+        },
+
+        "featured": true
+      },
+      {
+        "_id": {
+          "$oid": "651d8b2d9d1c1a0123456797"
+        },
+        "slug": "vikings-raiders-and-explorers",
+        "title": "Vikings: Raiders and Explorers",
+        "description": "From fierce warriors to skilled seafarers and traders, the Viking Age left a lasting impact on Europe and beyond. This exhibition features authentic Viking longships, intricately carved runestones, and a variety of weapons and household items. It provides a balanced view of Viking culture, dispelling myths and highlighting their complex society, beliefs, and extensive trade networks.",
+        "shortDescription": "Uncover the true story of the Vikings through their ships, artifacts, and runic carvings.",
+        "image": "https://paganheim.com/cdn/shop/articles/the-viking-age-warriors_9103c74b-e9fe-4e77-b2d7-9139bf6859dc.jpg?v=1723452910&width=1024",
+        "category": "Medieval History",
+        "status": "Past",
+        "duration": "October 2024 - April 2025",
+        "artifacts": 2,
+        "startDate": {
+          "$date": "2024-10-01T00:00:00Z"
+        },
+
+        "featured": false
+      },
+      {
+        "_id": {
+          "$oid": "651d8b2d9d1c1a0123456798"
+        },
+        "slug": "mesoamerican-civilizations-the-forgotten-empires",
+        "title": "Mesoamerican Civilizations: The Forgotten Empires",
+        "description": "Journey back in time to the Olmec, Maya, and Aztec civilizations. This exhibition presents monumental stone heads, intricate jade masks, and a detailed replica of a Mayan calendar. Visitors will gain insight into the sophisticated knowledge of astronomy, writing systems, and the rich cultural traditions of these powerful pre-Columbian societies.",
+        "shortDescription": "Explore the Olmec, Maya, and Aztec cultures through their iconic art and monumental structures.",
+        "image": "https://plantspeopleplanet.au/wp-content/uploads/2023/07/Tikal_mayan_ruins.jpg",
+        "category": "Pre-Columbian",
+        "status": "Current",
+        "duration": "June 2025 - October 2026",
+        "artifacts": 2,
+        "startDate": {
+          "$date": "2025-06-01T00:00:00Z"
+        },
+
+        "featured": true
+      },
+      {
+        "_id": {
+          "$oid": "651d8b2d9d1c1a0123456799"
+        },
+        "slug": "ancient-persia-the-achaemenid-empire",
+        "title": "Ancient Persia: The Achaemenid Empire",
+        "description": "Discover the glory of the Achaemenid Empire, from the reign of Cyrus the Great to its fall to Alexander. This exhibition features a wide array of artifacts, including cuneiform tablets, gold rhytons (drinking vessels), and impressive bas-reliefs. It highlights the empire's vast administrative system, multiculturalism, and architectural grandeur.",
+        "shortDescription": "A look into the art, administration, and power of the Achaemenid Persian Empire.",
+        "image": "https://res.cloudinary.com/aenetworks/image/upload/c_fill,ar_2,w_3840,h_1920,g_auto/dpr_auto/f_auto/q_auto:eco/v1/the-remains-of-the-sehdar-palace-persepolis-the-former?_a=BAVAZGDX0",
+        "category": "Ancient History",
+        "status": "Coming Soon",
+        "duration": "September 2025 - March 2026",
+        "artifacts": 2,
+        "startDate": {
+          "$date": "2025-09-15T00:00:00Z"
+        },
+
+        "featured": false
+      },
+      {
+        "_id": {
+          "$oid": "651d8b2d9d1c1a0123456800"
+        },
+        "slug": "the-golden-age-of-greece",
+        "title": "The Golden Age of Greece",
+        "description": "This exhibition explores the period of unprecedented creativity and innovation in Athens, focusing on democracy, philosophy, and art. On display are exquisite pottery, life-size marble statues, and armor from the Greco-Persian wars. Visitors will gain a deeper understanding of the thinkers and artists who shaped Western civilization.",
+        "shortDescription": "Experience the birth of democracy, philosophy, and classical art in Ancient Athens.",
+        "image": "https://www.ahistoryofgreece.com/pericles-acropolis.jpg",
+        "category": "Classical Antiquity",
+        "status": "Past",
+        "duration": "February 2024 - August 2024",
+        "artifacts": 2,
+        "startDate": {
+          "$date": "2024-02-10T00:00:00Z"
+        },
+
+        "featured": true
+      },
+      {
+        "_id": {
+          "$oid": "651d8b2d9d1c1a0123456801"
+        },
+        "slug": "samurai-and-shoguns-the-warriors-of-japan",
+        "title": "Samurai and Shoguns: The Warriors of Japan",
+        "description": "A comprehensive look at the history and culture of Japan's warrior class. The exhibition showcases full suits of samurai armor, finely crafted katanas, and exquisite woodblock prints depicting battles and daily life. It delves into the code of Bushido, the role of shoguns, and the artistry behind their martial equipment.",
+        "shortDescription": "Discover the art, weapons, and code of honor of the samurai.",
+        "image": "https://cdn.shopify.com/s/files/1/0266/2403/2817/files/samourai_periode_muromachi_1024x1024.webp?v=1693131906",
+        "category": "Asian History",
+        "status": "Current",
+        "duration": "April 2025 - September 2025",
+        "artifacts": 2,
+        "startDate": {
+          "$date": "2025-04-20T00:00:00Z"
+        },
+
+        "featured": false
+      },
+      {
+        "_id": {
+          "$oid": "651d8b2d9d1c1a0123456802"
+        },
+        "slug": "ancient-gandhara-the-crossroads-of-cultures",
+        "title": "Ancient Gandhara: The Crossroads of Cultures",
+        "description": "This exhibition explores the ancient kingdom of Gandhara, a unique civilization that blended Hellenistic and Buddhist artistic traditions. It features sculptures of the Buddha in Greco-Roman style, intricate stupas, and coins from the Indo-Greek kingdoms. The collection highlights how the legacy of Alexander the Great's conquests shaped the art and religion of Central Asia.",
+        "shortDescription": "A look at the unique Greco-Buddhist art and history of the Gandhara civilization.",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuECfvvlmuLtU5oB2oJBvN6gCkcXLFEJ0_SQ&s",
+        "category": "Ancient History",
+        "status": "Coming Soon",
+        "duration": "October 2025 - April 2026",
+        "artifacts": 2,
+        "startDate": {
+          "$date": "2025-10-05T00:00:00Z"
+        },
+
+        "featured": false
+      },
+      {
+        "_id": {
+          "$oid": "651d8b2d9d1c1a0123456803"
+        },
+        "slug": "the-silk-road-ancient-trade-and-cultural-exchange",
+        "title": "The Silk Road: Ancient Trade and Cultural Exchange",
+        "description": "Trace the historic routes of the Silk Road and discover the incredible exchange of goods, ideas, and technologies between East and West. The exhibition showcases artifacts such as vibrant silk textiles, rare spices, and intricately carved jade. Visitors will learn about the merchants, caravans, and cities that defined this ancient network.",
+        "shortDescription": "Journey along the Silk Road and see the artifacts that linked East and West.",
+        "image": "https://miro.medium.com/1*CUoo9xQN3JuOFtfog9Fb1g.jpeg",
+        "category": "Global History",
+        "status": "Current",
+        "duration": "March 2025 - December 2026",
+        "artifacts": 3,
+        "startDate": {
+          "$date": "2025-03-01T00:00:00Z"
+        },
+
+        "featured": true
+      }
+    ]
+  },
+  {
+    "model": "Artifact",
+    "documents": [
+      {
+        "_id": {
+          "$oid": "651d8b2d9d1c1a0123456791"
+        },
+        "title": "The Mask of Tutankhamun",
+        "culture": "Ancient Egyptian",
+        "period": "18th Dynasty, New Kingdom",
+        "location": "Tomb of Tutankhamun (KV62), Valley of the Kings, Egypt",
+        "description": "A gold mask of the ancient Egyptian pharaoh Tutankhamun, discovered in 1925 in his tomb. This iconic artifact is made of solid gold and inlaid with various colored glass and semi-precious stones. It was placed over the head and shoulders of the mummy of Tutankhamun.",
+        "materials": [
+          "Gold",
+          "Lapis lazuli",
+          "Quartz",
+          "Obsidian",
+          "Carnelian",
+          "Turquoise"
+        ],
+        "image": "https://upload.wikimedia.org/wikipedia/commons/2/27/CairoEgMuseumTaaMaskMostlyPhotographed.jpg",
+        "featured": true,
+        "exhibition": {
+          "$oid": "651d8b2d9d1c1a0123456789"
+        }
+      },
+      {
+        "_id": {
+          "$oid": "651d8b2d9d1c1a0123456792"
+        },
+        "title": "Tutankhamun's Funerary Dagger",
+        "culture": "Ancient Egyptian",
+        "period": "18th Dynasty, New Kingdom",
+        "location": "Tomb of Tutankhamun (KV62), Valley of the Kings, Egypt",
+        "description": "A dagger with an iron blade found wrapped within the bandages of Tutankhamun's mummy. The hilt is made of gold and decorated with cloisonné work, and the pommel is a rock crystal. Analysis has shown the iron blade to be of meteoritic origin.",
+        "materials": ["Iron (meteoritic)", "Gold", "Rock crystal"],
+        "image": "https://cdn.mos.cms.futurecdn.net/nwuKYY2zUrHxyHeG68DBjf-1200-80.jpg",
+        "featured": false,
+        "exhibition": {
+          "$oid": "651d8b2d9d1c1a0123456789"
+        }
+      },
+      {
+        "_id": {
+          "$oid": "651d8b2d9d1c1a0123456793"
+        },
+        "title": "Golden Shrine of Anubis",
+        "culture": "Ancient Egyptian",
+        "period": "18th Dynasty, New Kingdom",
+        "location": "Tomb of Tutankhamun (KV62), Valley of the Kings, Egypt",
+        "description": "A gilded statue of the jackal god Anubis, found within the funerary complex of Tutankhamun's tomb. The statue served as a guardian of the canopic chest and is a masterful example of ancient Egyptian craftsmanship, symbolizing protection for the deceased.",
+        "materials": ["Wood", "Gesso", "Gold leaf", "Paint"],
+        "image": "https://i0.wp.com/egypt-museum.com/wp-content/uploads/2023/12/Anubis-Shrine-of-Tutankhamun.jpg?fit=476%2C600&ssl=1",
+        "featured": false,
+        "exhibition": {
+          "$oid": "651d8b2d9d1c1a0123456789"
+        }
+      },
+      {
+        "_id": {
+          "$oid": "651d8b2d9d1c1a0123456794"
+        },
+        "title": "Ming Dynasty Blue and White Porcelain Dish",
+        "culture": "Chinese",
+        "period": "Ming Dynasty",
+        "location": "Recovered from a shipwreck off the coast of Fujian province",
+        "description": "A large, exquisitely painted porcelain dish from the Ming Dynasty. The dish features a central design of a coiled dragon surrounded by waves and auspicious clouds, all rendered in vibrant cobalt blue under a clear glaze. This type of porcelain was highly prized for international trade.",
+        "materials": ["Porcelain", "Cobalt blue pigment"],
+        "image": "https://wonder-cabinet.sites.gettysburg.edu/2017/wp-content/uploads/2017/10/IMG_8165.jpg",
+        "featured": true,
+        "exhibition": {
+          "$oid": "651d8b2d9d1c1a0123456790"
+        }
+      },
+      {
+        "_id": {
+          "$oid": "651d8b2d9d1c1a0123456795"
+        },
+        "title": "Han Dynasty Silk Scroll",
+        "culture": "Chinese",
+        "period": "Han Dynasty",
+        "location": "Found in a tomb in Mawangdui, Hunan province",
+        "description": "A silk scroll recovered from an ancient Han Dynasty tomb. The scroll contains a map of the world and constellations, showcasing the advanced astronomical and geographical knowledge of the period. The delicate silk and intricate ink work have been remarkably preserved.",
+        "materials": ["Silk", "Ink"],
+        "image": "https://www.hnmuseum.com/sites/default/files/styles/zhuanti_squareimg/public/%217205-7%E5%85%A8.jpg?itok=WTJPYZC8",
+        "featured": false,
+        "exhibition": {
+          "$oid": "651d8b2d9d1c1a0123456790"
+        }
+      },
+      {
+        "_id": {
+          "$oid": "651d8b2d9d1c1a012345679a"
+        },
+        "title": "Bust of Emperor Augustus",
+        "culture": "Roman",
+        "period": "Early Roman Empire",
+        "location": "Prima Porta, Italy",
+        "description": "A marble statue of Augustus Caesar, the first Roman emperor. This idealized portrait depicts Augustus as a great military leader and a divinely inspired ruler, emphasizing his authority and legacy. It's a key example of Roman portraiture and propaganda.",
+        "materials": ["Marble"],
+        "image": "https://theancienthome.com/cdn/shop/products/001-SCRO4401051-augustus-caesar-as-centurion-bust-sculpture-large_c0daccf2-9e23-4c82-a792-634c328cda2b.jpg?v=1685628617",
+        "featured": true,
+        "exhibition": {
+          "$oid": "651d8b2d9d1c1a0123456796"
+        }
+      },
+      {
+        "_id": {
+          "$oid": "651d8b2d9d1c1a012345679b"
+        },
+        "title": "Mosaic of the Cave Canem",
+        "culture": "Roman",
+        "period": "Early Roman Empire",
+        "location": "House of the Tragic Poet, Pompeii, Italy",
+        "description": "A mosaic depicting a chained dog with the inscription 'Cave Canem' (Beware of the Dog). Found at the entrance of a house in Pompeii, this mosaic serves as both a warning and a testament to the daily life and art of the ancient city.",
+        "materials": ["Tesserae", "Mortar"],
+        "image": "https://theancienthome.com/cdn/shop/files/3071P-MORO3402018-cave-canem-mosaic_1800x1800_8dfe9fef-c01b-48e8-bd1a-54536db52d00_1080x.webp?v=1665738295",
+        "featured": false,
+        "exhibition": {
+          "$oid": "651d8b2d9d1c1a0123456796"
+        }
+      },
+      {
+        "_id": {
+          "$oid": "651d8b2d9d1c1a012345679c"
+        },
+        "title": "Oseberg Ship",
+        "culture": "Viking (Norse)",
+        "period": "Viking Age",
+        "location": "Oseberg burial mound, Vestfold, Norway",
+        "description": "A well-preserved Viking ship discovered in a large burial mound. The ship is a karve, a type of clinker-built longship, and is richly decorated with intricate carvings. It was likely a high-status vessel used for coastal sailing or as a funerary ship for royalty.",
+        "materials": ["Oak", "Iron"],
+        "image": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Osebergskipet_2016.jpg",
+        "featured": true,
+        "exhibition": {
+          "$oid": "651d8b2d9d1c1a0123456797"
+        }
+      },
+      {
+        "_id": {
+          "$oid": "651d8b2d9d1c1a012345679d"
+        },
+        "title": "Maya Funerary Mask of Pacal the Great",
+        "culture": "Mayan",
+        "period": "Classic Maya Period",
+        "location": "Temple of the Inscriptions, Palenque, Mexico",
+        "description": "A stunning mosaic mask made of jade, discovered in the sarcophagus of the Mayan ruler K'inich Janaab' Pakal. The mask, a masterpiece of Mayan art, was meant to transform the deceased into a god and aid in his journey to the afterlife.",
+        "materials": ["Jade", "Shell", "Obsidian"],
+        "image": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Palenque_-_Maske_des_Pakal.jpg",
+        "featured": true,
+        "exhibition": {
+          "$oid": "651d8b2d9d1c1a0123456798"
+        }
+      },
+      {
+        "_id": {
+          "$oid": "651d8b2d9d1c1a012345679e"
+        },
+        "title": "Olmec Colossal Head",
+        "culture": "Olmec",
+        "period": "Middle Formative Period",
+        "location": "La Venta, Tabasco, Mexico",
+        "description": "One of the massive basalt sculptures carved by the Olmec civilization. The heads are believed to be portraits of rulers, each with unique features and headdresses. They are a powerful symbol of the Olmec's artistic skill and political authority.",
+        "materials": ["Basalt"],
+        "image": "https://earthlymission.com/wp-content/uploads/2024/12/olmec-colossal-heads-mystery-1.jpg",
+        "featured": false,
+        "exhibition": {
+          "$oid": "651d8b2d9d1c1a0123456798"
+        }
+      },
+      {
+        "_id": {
+          "$oid": "651d8b2d9d1c1a012345679f"
+        },
+        "title": "Achaemenid Rhyton",
+        "culture": "Persian (Achaemenid)",
+        "period": "Achaemenid Empire",
+        "location": "Iran",
+        "description": "An exquisite gold drinking vessel (rhyton) in the form of a winged lion. This artifact is a testament to the mastery of Achaemenid metalworking, combining animal motifs with elaborate craftsmanship. Such objects were used in royal ceremonies and elite gatherings.",
+        "materials": ["Gold"],
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Persia_-_Achaemenian_Vessels.jpg/1200px-Persia_-_Achaemenian_Vessels.jpg",
+        "featured": true,
+        "exhibition": {
+          "$oid": "651d8b2d9d1c1a0123456799"
+        }
+      },
+      {
+        "_id": {
+          "$oid": "651d8b2d9d1c1a0123456804"
+        },
+        "title": "Statue of the Discobolus",
+        "culture": "Greek",
+        "period": "Classical Greece",
+        "location": "Athens, Greece",
+        "description": "A Roman marble copy of a lost Greek bronze statue. The Discobolus, or 'discus thrower,' is a famous work by the sculptor Myron. It captures the dynamic motion and idealized human form characteristic of Greek classical sculpture, symbolizing athletic excellence.",
+        "materials": ["Marble"],
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Discobolus_in_National_Roman_Museum_Palazzo_Massimo_alle_Terme.JPG/250px-Discobolus_in_National_Roman_Museum_Palazzo_Massimo_alle_Terme.JPG",
+        "featured": true,
+        "exhibition": {
+          "$oid": "651d8b2d9d1c1a0123456800"
+        }
+      },
+      {
+        "_id": {
+          "$oid": "651d8b2d9d1c1a0123456805"
+        },
+        "title": "Samurai Armor (O-yoroi)",
+        "culture": "Japanese",
+        "period": "Muromachi Period",
+        "location": "Japan",
+        "description": "A full suit of traditional samurai armor. This type of armor, known as 'O-yoroi,' was designed for mounted warfare. It is composed of lacquered plates bound together with silk cords, providing both protection and a striking visual appearance that reflected the samurai's status.",
+        "materials": ["Iron", "Leather", "Silk", "Lacquer"],
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQa7qSWHMjgz3aySGrW3Ia59AvtW7kpK7w59w&s",
+        "featured": true,
+        "exhibition": {
+          "$oid": "651d8b2d9d1c1a0123456801"
+        }
+      },
+      {
+        "_id": {
+          "$oid": "651d8b2d9d1c1a0123456806"
+        },
+        "title": "Gandharan Bodhisattva Statue",
+        "culture": "Gandhara (Greco-Buddhist)",
+        "period": "Kushan Empire",
+        "location": "Modern-day Pakistan",
+        "description": "A statue of a Bodhisattva, a figure who has achieved enlightenment but remains to help others. This sculpture is a prime example of Greco-Buddhist art, blending the Hellenistic tradition of realistic drapery and facial features with the Buddhist iconography of a halo and seated posture.",
+        "materials": ["Schist"],
+        "image": "https://cdn.britannica.com/50/136650-050-4F7FF9C2/statue-Buddha-style-Gandhara-Delhi-Museum-India.jpg",
+        "featured": false,
+        "exhibition": {
+          "$oid": "651d8b2d9d1c1a0123456802"
+        }
+      },
+      {
+        "_id": {
+          "$oid": "651d8b2d9d1c1a0123456807"
+        },
+        "title": "The Gandhara Frieze of the Fasting Buddha",
+        "culture": "Gandhara (Greco-Buddhist)",
+        "period": "Kushan Empire",
+        "location": "Modern-day Pakistan",
+        "description": "This powerful relief sculpture depicts the Buddha emaciated from six years of asceticism, a dramatic portrayal rarely seen outside of Gandharan art. The Hellenistic influence is evident in the realistic rendering of his ribs and facial expression, highlighting the fusion of Greek realism and Buddhist spirituality.",
+        "materials": ["Schist"],
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpz33fXBQ21AJ_3U4S6XNXzycoW_g2h3fBhg&s",
+        "featured": false,
+        "exhibition": {
+          "$oid": "651d8b2d9d1c1a0123456802"
+        }
+      },
+      {
+        "_id": {
+          "$oid": "651d8b2d9d1c1a0123456808"
+        },
+        "title": "Scythian Gold Stag",
+        "culture": "Scythian",
+        "period": "5th-4th century BCE",
+        "location": "Siberian Steppes",
+        "description": "A finely crafted gold plaque in the shape of a stag, a masterpiece of Scythian art. The Scythians were nomadic people of Central Asia known for their stunning goldwork. This piece, likely a shield ornament, showcases the animal-style art that defined their culture and trade with other civilizations along the Silk Road.",
+        "materials": ["Gold"],
+        "image": "https://www.worldhistory.org/uploads/images/13219.jpg?v=1630592103-0",
+        "featured": true,
+        "exhibition": {
+          "$oid": "651d8b2d9d1c1a0123456803"
+        }
+      },
+      {
+        "_id": {
+          "$oid": "651d8b2d9d1c1a0123456809"
+        },
+        "title": "Sogdian Silk Robe",
+        "culture": "Sogdian",
+        "period": "7th century CE",
+        "location": "Xinjiang, China",
+        "description": "A silk robe belonging to a Sogdian merchant, discovered in a tomb along the Silk Road. The Sogdians were key intermediaries in the trade between China and the West. This robe, with its vibrant colors and intricate patterns, reflects their wealth and the cultural fusion that characterized the Silk Road.",
+        "materials": ["Silk", "Dyes"],
+        "image": "https://sogdians.si.edu/wp-content/uploads/2022/02/Fig.-3-Childs-coat-1600x1050.jpg",
+        "featured": false,
+        "exhibition": {
+          "$oid": "651d8b2d9d1c1a0123456803"
+        }
+      }
+    ]
+  }
+]
