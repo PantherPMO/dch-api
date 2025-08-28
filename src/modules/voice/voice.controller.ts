@@ -82,6 +82,20 @@ Output:
   }
 };
 
+const getHistoryAnswerFromGemini = async (query: string): Promise<string> => {
+  const historyPrompt = `Provide a detailed and concise explanation of "${query}", at least 200 words long. Focus on key facts, events, and significance.`;
+  try {
+    const result = await genAI.models.generateContent({
+      model: "gemini-2.5-flash",
+      contents: [{ text: historyPrompt }]
+    });
+    return result.text || `I couldn't find detailed information about "${query}".`;
+  } catch (error) {
+    console.error("Error getting history answer from Gemini:", error);
+    return `I encountered an error while trying to find information about "${query}".`;
+  }
+};
+
 export const processVoiceCommand = async (c: Context) => {
   try {
     const { transcript } = await c.req.json();
@@ -261,10 +275,16 @@ export const processVoiceCommand = async (c: Context) => {
         };
         break;
       case 'answer_history_question':
+        const historyQuery = entities.query || '';
+        let historyAnswer = `I couldn't find specific information about "${historyQuery}" at the moment.`;
+        if (historyQuery) {
+          historyAnswer = await getHistoryAnswerFromGemini(historyQuery);
+        }
         response = {
-          action: 'toast',
-          title: 'History Question',
-          description: `I can provide information on historical topics. You asked about: ${entities.query || 'a historical topic'}.`,
+          action: 'display_history_info',
+          title: 'History Information',
+          query: historyQuery,
+          description: historyAnswer,
         };
         break;
       default:
