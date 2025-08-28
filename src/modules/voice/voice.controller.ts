@@ -58,13 +58,14 @@ Output: { \"intent\": \"answer_history_question\", \"entities\": { \"query\": \"
 User command: "${transcript}"
 Output:
 
+`; // End of prompt string
 
   try {
     const result = await genAI.models.generateContent({
       model: "gemini-2.5-flash",
-      contents: prompt
+      contents: [{ text: prompt }]
     });
-    const responseText = result?.text || '';
+    const responseText = result.text || '';
     const cleanedResponseText = responseText.replace(/```json\n|```/g, '').trim();
     console.log("LLM Raw Response:", cleanedResponseText);
     // Attempt to parse JSON, handle potential errors
