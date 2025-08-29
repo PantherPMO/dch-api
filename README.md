@@ -4,8 +4,8 @@ The `dch-api` is the backend service for the Digital Cultural Heritage (DCH) mon
 
 ## Key Technologies
 
--   **Runtime:** Node.js
--   **Framework:** Express.js
+-   **Runtime:** Bun Js
+-   **Framework:** Hono Framework
 -   **Language:** TypeScript
 -   **Package Manager:** Bun
 -   **Database:** MongoDB (via Mongoose)
